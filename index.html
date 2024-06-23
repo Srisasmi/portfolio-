@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="site-main-wrapper">
+      <button class="hamberger">
+        <img src="./images/hamberger.svg" alt="" />
+      </button>
+
+      <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" alt="" /></button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact </a></li>
+        </ul>
+      </div>
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="branding">
+                <img src="./images/logo.svg" alt="" />
+              </div>
+              <div>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#Work">Work</a>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+            <div class="right">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </nav>
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify">
+              <img src="./image/web.png" alt="" class="img" />
+            </div>
+            <div class="right flex-1">
+              <h1 style="color: var(--primary)">Srisasmitha M</h1>
+              <h2>I’m a Web <span>Developer</span></h2>
+              <p>
+                I specialize in front-end and back-end development, blending
+                aesthetics with functionality to deliver seamless user
+                experiences. With a strong foundation in HTML, CSS, JavaScript,
+                and various frameworks, I strive to bring innovative ideas to
+                life on the web.
+              </p>
+              <div>
+                <button class="btn btn-secondary">DOWNLOAD CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="about" class="about">
+        <div class="container flex items-center about-inner-wrap">
+          <div class="flex-1">
+            <img class="about-me-img" src="./image/about.png" alt="" />
+          </div>
+          <div class="flex-1 right">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello! I’m Srisasmitha.</h3>
+            <p>
+              My journey in web development started with a fascination for how
+              websites work.I believe that a great website is more than just a
+              combination of code and graphics. It's about creating an
+              experience that users find intuitive, engaging, and valuable.
+              Whether it's a sleek portfolio, an interactive web application, or
+              a robust e-commerce platform, I approach each project with a focus
+              on usability and performance.I'm always excited to take on new
+              challenges and collaborate with others. If you have a project in
+              mind or just want to chat about web development, feel free to
+              contact me .
+            </p>
+            <div class="social">
+              <a href="#"><img src="./images/website.svg" alt="" /></a>
+              <a href="https://www.facebook.com/codersgyan"
+                ><img src="./images/facebook.svg" alt=""
+              /></a>
+              <a href="https://twitter.com/CoderGyan">
+                <img src="./images/twitter.svg" alt=""
+              /></a>
+              <a href="#"> <img src="./images/pintrest.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Work" class="Work">
+        <h1>I Am Available For Freelancer.</h1>
+        <p>We provide high standard clean website for your business solutions</p>
+        <button class="btn btn-primary">Download CV</button>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h1 class="section-heading">Contact <span>Us</span></h1>
+          <p>
+            We provide high standard clean website for your business solutions
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./images/phone-2.svg" alt="" />
+              <h1>Call On</h1>
+              <h6>+985 123 7856</h6>
+            </div>
+            <div class="card">
+              <img src="./images/msg.svg" alt="" />
+              <h1>Email At</h1>
+              <h6>support@companyname.com</h6>
+            </div>
+
+            <form action="https://formsubmit.co/srisasmitha844@gmail.com" method="POST">
+              <div class="input-wrap">
+                  <input type="text" name="name" placeholder="Your Name *" required />
+                  <input type="email" name="email" placeholder="Your Email *" required />
+              </div>
+              <div class="input-wrap-2">
+                  <input type="text" name="subject" placeholder="Your Subject..." />
+                  <textarea name="message" cols="30" rows="10" placeholder="Your Message..." required></textarea>
+              </div>
+              <div class="btn-wrapper">
+                  <button class="btn btn-primary" type="submit">Send Message</button>
+              </div>
+          </form>
+          <div class="modal" id="thank-you-modal">
+            <div class="modal-content">
+                <span class="close-button" id="close-button">&times;</span>
+                <p>Thank you for your message!</p>
+            </div>
+          
+        </div>
+      </section>
+      <footer>
+        <img class="footer-logo" src="./images/logo-2.svg" alt="" />
+        <div class="footer-socials">
+          <a href="#"><img src="./images/website.svg" alt="" /></a>
+          <a href="https://www.facebook.com/codersgyan"
+            ><img src="./images/facebook.svg" alt=""
+          /></a>
+          <a href="https://twitter.com/CoderGyan">
+            <img src="./images/twitter.svg" alt=""
+          /></a>
+          <a href="#"> <img src="./images/pintrest.svg" alt="" /></a>
+          <a href="https://www.instagram.com/codersgyan/">
+            <img src="./images/instagram.svg" alt=""
+          /></a>
+        </div>
+        <div class="copyright">Copyright 2024 © sri</div>
+      </footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
